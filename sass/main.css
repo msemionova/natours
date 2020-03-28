@@ -14,7 +14,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777777;
+  color: #777;
   padding: 3rem;
   box-sizing: border-box;
 }
@@ -27,17 +27,14 @@ body {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
-
 .header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
-
 .header__logo {
   height: 3.5rem;
 }
-
 .header__text-box {
   position: absolute;
   top: 40%;
@@ -47,12 +44,11 @@ body {
 }
 
 .heading-primary {
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 }
-
 .heading-primary--main {
   display: block;
   font-size: 6rem;
@@ -60,7 +56,6 @@ body {
   letter-spacing: 3.8rem;
   animation: moveInLeft 600ms ease-out;
 }
-
 .heading-primary--sub {
   display: block;
   font-size: 2.4rem;
@@ -105,8 +100,7 @@ body {
     transform: translate(0);
   }
 }
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
   font-size: 1.6rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -116,17 +110,18 @@ body {
   transition: all 200ms;
   position: relative;
 }
-
 .btn:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
-
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
 .btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
-
 .btn::after {
   content: "";
   display: inline-block;
@@ -139,21 +134,13 @@ body {
   z-index: -1;
   transition: all 400ms;
 }
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
 .btn--white {
-  background-color: #ffffff;
-  color: #777777;
+  background-color: #fff;
+  color: #777;
 }
-
 .btn--white::after {
-  background-color: #ffffff;
+  background-color: #fff;
 }
-
 .btn--animated {
   animation: moveInBottom 400ms ease-out 750ms;
   animation-fill-mode: backwards;
