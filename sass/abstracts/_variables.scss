@@ -10,11 +10,21 @@ $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
 $color-gray-light-1: #f7f7f7;
+$color-gray-light-2: #eee;
 $color-gray-dark: #777;
 $color-white: #fff;
 $color-black: #000;
 
-//FONT
+$color-shadow-light: rgba($color-black, .15);
+$color-shadow-dark: rgba($color-black, .5);
+
+//SHADOWS
+$shadow-small: 0 .5rem 1rem $color-shadow-light;
+$shadow-medium: 0 1rem 2rem $color-shadow-light;
+$shadow-large: 0 1.5rem 4rem $color-shadow-light;
+$shadow-extra-large: 0 2.5rem 4rem $color-shadow-dark;
+
+//FONTS
 $default-font-size: 1.6rem;
 
 //GRID
