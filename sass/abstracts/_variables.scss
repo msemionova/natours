@@ -19,10 +19,11 @@ $color-shadow-light: rgba($color-black, .15);
 $color-shadow-dark: rgba($color-black, .5);
 
 //SHADOWS
-$shadow-small: 0 .5rem 1rem $color-shadow-light;
-$shadow-medium: 0 1rem 2rem $color-shadow-light;
-$shadow-large: 0 1.5rem 4rem $color-shadow-light;
-$shadow-extra-large: 0 2.5rem 4rem $color-shadow-dark;
+$shadow-extra-small: 0 .5rem 1rem $color-shadow-light;
+$shadow-small: 0 1rem 2rem $color-shadow-light;
+$shadow-medium: 0 1.5rem 4rem $color-shadow-light;
+$shadow-large: 0 2.5rem 4rem $color-shadow-dark;
+$shadow-extra-large: 0 3rem 6rem $color-shadow-light;
 
 //FONTS
 $default-font-size: 1.6rem;

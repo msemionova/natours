@@ -3,7 +3,7 @@
 
     &__photo {
         width: 55%;
-        box-shadow: $shadow-large;
+        box-shadow: $shadow-medium;
         border-radius: 2px;
         position: absolute;
         z-index: 10;
@@ -28,7 +28,7 @@
         &:hover {
             outline: 1rem solid $color-primary;
             transform: scale(1.05) translateY(-.5rem);
-            box-shadow: $shadow-extra-large;
+            box-shadow: $shadow-large;
             z-index: 20;
         }
     }
