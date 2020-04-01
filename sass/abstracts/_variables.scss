@@ -11,7 +11,8 @@ $color-tertiary-dark: #5643fa;
 
 $color-gray-light-1: #f7f7f7;
 $color-gray-light-2: #eee;
-$color-gray-dark: #777;
+$color-gray-dark-1: #777;
+$color-gray-dark-2: #999;
 $color-white: #fff;
 $color-black: #000;
 
@@ -24,6 +25,10 @@ $shadow-small: 0 1rem 2rem $color-shadow-light;
 $shadow-medium: 0 1.5rem 4rem $color-shadow-light;
 $shadow-large: 0 2.5rem 4rem $color-shadow-dark;
 $shadow-extra-large: 0 3rem 6rem $color-shadow-light;
+
+//CONTAINER PROPERTIES
+$border-radius-small: 3px;
+$border-radius-large: 10rem;
 
 //FONTS
 $default-font-size: 1.6rem;
