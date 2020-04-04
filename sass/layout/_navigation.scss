@@ -6,8 +6,8 @@
 
     &__button {
         background-color: $color-white;
-        height: 5rem;
-        width: 5rem;
+        height: 6rem;
+        width: 6rem;
         position: fixed;
         top: 6rem;
         right: 6rem;
@@ -114,12 +114,12 @@
     //ICON
     &__icon {
         position: relative;
-        margin-top: 2.5rem;
+        margin-top: 2.9rem;
 
         &,
         &::before,
         &::after {
-            width: 2rem;
+            width: 2.5rem;
             height: 2px;
             background-color: $color-gray-dark-3;
             display: inline-block;
